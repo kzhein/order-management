@@ -8,7 +8,7 @@ Order service exposes four api endpoints to be used by the frontend.
 
 ### Create an order
 
-```http
+```
   POST /api/orders
 ```
 
@@ -22,19 +22,19 @@ Payload
 
 ### Get All Orders
 
-```http
+```
   GET /api/orders
 ```
 
 ### Get An Order
 
-```http
+```
   GET /api/orders/:id
 ```
 
 ### Cancel An Order
 
-```http
+```
   PATCH /api/orders/:id/cancel
 ```
 
